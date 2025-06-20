@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+  <div class="title">Student Portal</div>
+	<div class="container">
+     <div class="search-container">
+        <input class="search" onchange="search()" id="search" placeholder="Search"/>
+        <button class="search-button w-10" onclick="clickHandler()">Search</button>
+     </div>
+     <div class="buttons">
+      <button id="sortAZ">Sort A-Z</button>
+      <button id="sortAZ">Sort Z-A</button>
+      <button id="sortAZ">Sort By Marks</button>
+      <button id="sortAZ">Sort By Passing</button>
+      <button id="sortAZ">Sort By Class</button>
+      <button id="sortAZ">Sort By Gender</button>
+    </div> 
+     <table id="Table">
+        <thead>
+          <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Gender</td>
+            <td>Class</td>
+            <td>Marks</td>
+            <td>Passing</td>
+            <td>Email</td>
+          </tr>
+          
+        </thead>
+        <tbody class="tbody">
+          
+          
+        </tbody>
+      </table>
+  </div>
+    
+  <script src="Project.js"></script>
+</body>
+</html>
